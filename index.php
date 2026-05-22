@@ -8,8 +8,13 @@
 
         <body>
 <?php 
-        $hello = "Olá Mundo";
+	$hello = "Hello World";
+	$num1 = 2;
+	$num2 = 4;
+	$result = $num1 + $num2;
+	$result = "The result of the sum of $num1 + $num2 is equal $result";
         echo "<h1>$hello</h1>";
+	echo "<p>$result</p>";
 ?>
 
         </body>
